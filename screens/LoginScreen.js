@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
@@ -7,6 +7,11 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+      <Image 
+        source={require('../assets/Logo.png')} 
+        style={styles.logo}
+        resizeMode="contain" // Thêm thuộc tính này để ảnh tự căn chỉnh mà không bị khuyết
+      />
       <Text style={styles.title}>Đăng nhập</Text>
       <TextInput
         style={styles.input}
@@ -36,9 +41,14 @@ export default function LoginScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: { 
     flex: 1, 
-    justifyContent: 'center', 
     alignItems: 'center', 
-    backgroundColor: '#fff' 
+    backgroundColor: '#fff',
+    paddingTop: 70
+  },
+  logo: {
+    width: 150, 
+    height: 150, 
+    marginBottom: 46
   },
   title: { 
     fontSize: 28, 
@@ -73,4 +83,4 @@ const styles = StyleSheet.create({
     marginTop: 8, 
     fontSize: 16 
   },
-}); 
+});

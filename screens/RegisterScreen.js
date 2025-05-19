@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
 
 export default function RegisterScreen({ navigation }) {
   const [name, setName] = useState('');
@@ -9,6 +9,11 @@ export default function RegisterScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+      <Image 
+        source={require('../assets/Logo.png')} 
+        style={styles.logo}
+        resizeMode="contain" // Đảm bảo logo hiển thị đầy đủ, không bị khuyết
+      />
       <Text style={styles.title}>Đăng ký</Text>
       <TextInput
         style={styles.input}
@@ -51,9 +56,14 @@ export default function RegisterScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: { 
     flex: 1, 
-    justifyContent: 'center', 
     alignItems: 'center', 
-    backgroundColor: '#fff' 
+    backgroundColor: '#fff',
+    paddingTop: 70
+  },
+  logo: {
+    width: 150, 
+    height: 150, 
+    marginBottom: 24
   },
   title: { 
     fontSize: 28, 
@@ -88,4 +98,4 @@ const styles = StyleSheet.create({
     marginTop: 8, 
     fontSize: 16 
   },
-}); 
+});
