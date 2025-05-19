@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList } from 'react-native';
 
 const user = {
-  name: 'Nguyễn Văn A',
-  email: 'nguyenvana@email.com',
-  avatar: require('../assets/user.png'),
+  name: 'Nguyễn Gia Huy',
+  email: 'huydeptraikhongaisanhbang@email.com',
+  avatar: require('../assets/supercute.png'),
 };
 
 const orders = [
@@ -51,9 +51,10 @@ const styles = StyleSheet.create({
     paddingTop: 32 
   },
   avatar: { 
-    width: 100, 
-    height: 100, 
-    borderRadius: 50, 
+    width: 150, 
+    height: 150, 
+    borderRadius: 100, 
+    marginTop: 20 ,
     marginBottom: 12 
   },
   name: { 

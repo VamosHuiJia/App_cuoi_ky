@@ -8,23 +8,37 @@ const featuredBikes = [
   { id: 2, name: 'Xe đạp địa hình Trek', price: '15.500.000đ', image: require('../assets/bike2.jpg'), desc: 'Xe địa hình mạnh mẽ, bám đường tốt, thích hợp leo núi.' },
   { id: 3, name: 'Xe đạp đua Merida', price: '18.200.000đ', image: require('../assets/bike3.jpg'), desc: 'Tốc độ cao, thiết kế khí động học, dành cho đua chuyên nghiệp.' },
   { id: 4, name: 'Xe đạp trẻ em Asama', price: '4.500.000đ', image: require('../assets/bike4.jpg'), desc: 'An toàn, chắc chắn, màu sắc tươi sáng cho trẻ nhỏ.' },
+  { id: 5, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike5.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
+  { id: 6, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike6.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
+  { id: 7, name: 'Xe đạp đua Twitter', price: '20.000.000đ', image: require('../assets/bike7.jpg'), desc: 'Siêu nhẹ, tốc độ vượt trội, dành cho dân chuyên.' },
+  { id: 8, name: 'Xe đạp trẻ em Martin', price: '3.800.000đ', image: require('../assets/bike8.jpg'), desc: 'Thiết kế nhỏ gọn, an toàn cho bé.' },
 ];
 
 const categories = [
-  { id: 1, name: 'Thể thao', icon: require('../assets/bike1.jpg') },
-  { id: 2, name: 'Địa hình', icon: require('../assets/bike2.jpg') },
-  { id: 3, name: 'Đua', icon: require('../assets/bike3.jpg') },
-  { id: 4, name: 'Trẻ em', icon: require('../assets/bike4.jpg') },
+  { id: 1, name: 'Thể thao', icon: require('../assets/cate1.jpg') },
+  { id: 2, name: 'Địa hình', icon: require('../assets/cate2.jpg') },
+  { id: 3, name: 'Đua', icon: require('../assets/cate3.jpg') },
+  { id: 4, name: 'Trẻ em', icon: require('../assets/cate4.jpg') },
 ];
 
 const newBikes = [
   { id: 5, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike1.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
   { id: 6, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike2.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
+  { id: 7, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike7.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
+  { id: 8, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike8.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
+  { id: 9, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike9.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
+  { id: 10, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike10.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
+  { id: 11, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike11.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
+  { id: 12, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike12.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
 ];
 
 const bestSellers = [
   { id: 7, name: 'Xe đạp đua Twitter', price: '20.000.000đ', image: require('../assets/bike3.jpg'), desc: 'Siêu nhẹ, tốc độ vượt trội, dành cho dân chuyên.' },
   { id: 8, name: 'Xe đạp trẻ em Martin', price: '3.800.000đ', image: require('../assets/bike4.jpg'), desc: 'Thiết kế nhỏ gọn, an toàn cho bé.' },
+  { id: 9, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike9.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
+  { id: 10, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike10.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
+  { id: 11, name: 'Xe đạp thể thao Fornix', price: '10.000.000đ', image: require('../assets/bike11.jpg'), desc: 'Thiết kế trẻ trung, phù hợp tập luyện thể thao.' },
+  { id: 12, name: 'Xe đạp địa hình Giant', price: '13.000.000đ', image: require('../assets/bike12.jpg'), desc: 'Khung hợp kim, giảm xóc tốt, bền bỉ.' },
 ];
 
 export default function HomeScreen({ navigation }) {
