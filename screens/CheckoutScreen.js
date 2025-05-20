@@ -9,9 +9,9 @@ const paymentMethods = [
 
 export default function CheckoutScreen({ navigation }) {
   const { cart } = useApp();
-  const [name, setName] = useState('Nguyễn Văn A');
-  const [address, setAddress] = useState('123 Đường Lê Lợi, Quận 1, TP.HCM');
-  const [phone, setPhone] = useState('0901234567');
+  const [name, setName] = useState('');
+  const [address, setAddress] = useState('');
+  const [phone, setPhone] = useState('');
   const [payment, setPayment] = useState(paymentMethods[0].id);
   const total = cart.reduce((sum, item) => sum + item.product.price.replace(/\D/g, '') * item.qty, 0);
 
