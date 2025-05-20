@@ -12,7 +12,7 @@ export default function RegisterScreen({ navigation }) {
       <Image 
         source={require('../assets/Logo.png')} 
         style={styles.logo}
-        resizeMode="contain" // Đảm bảo logo hiển thị đầy đủ, không bị khuyết
+        resizeMode="contain" 
       />
       <Text style={styles.title}>Đăng ký</Text>
       <TextInput

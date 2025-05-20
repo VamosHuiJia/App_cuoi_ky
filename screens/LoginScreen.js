@@ -10,7 +10,7 @@ export default function LoginScreen({ navigation }) {
       <Image 
         source={require('../assets/Logo.png')} 
         style={styles.logo}
-        resizeMode="contain" // Thêm thuộc tính này để ảnh tự căn chỉnh mà không bị khuyết
+        resizeMode="contain" 
       />
       <Text style={styles.title}>Đăng nhập</Text>
       <TextInput
