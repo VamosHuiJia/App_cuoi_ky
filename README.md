@@ -12,7 +12,7 @@
 
 ## Mẫu thiết kế App:
 
-https://www.figma.com/design/MuXdl05SunIk0b1uVHZVLJ/%E1%BB%A8ng-d%E1%BB%A5ng-c%E1%BB%ADa-h%C3%A0ng-b%C3%A1n-xe-%C4%91%E1%BA%A1p?node-id=14-64&t=FOHukRrwoGVp5xoz-0
+https://www.figma.com/design/MuXdl05SunIk0b1uVHZVLJ/%E1%BB%A8ng-d%E1%BB%A5ng-c%E1%BB%ADa-h%C3%A0ng-b%C3%A1n-xe-%C4%91%E1%BA%A1p?node-id=0-1&p=f&t=MRFdpoMJxvPuwteI-0
 
 =======================================
 
