@@ -16,4 +16,10 @@ https://www.figma.com/design/MuXdl05SunIk0b1uVHZVLJ/%E1%BB%A8ng-d%E1%BB%A5ng-c%E
 
 =======================================
 
+## Báo cáo môn học:
+
+[Báo cáo APP.docx](https://github.com/user-attachments/files/20360720/Bao.cao.APP.docx)
+
+=======================================
+
 🙏 **Cảm ơn vì đã ghé qua!**
