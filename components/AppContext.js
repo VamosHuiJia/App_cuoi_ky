@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from 'react';
 const AppContext = createContext();
 
 export function AppProvider({ children }) {
-  const [cart, setCart] = useState([]); // [{product, qty}]
+  const [cart, setCart] = useState([]); // [{product, quantity}]
   const [favorites, setFavorites] = useState([]); // [productId]
 
   // Cart
